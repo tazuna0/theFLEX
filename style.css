@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    background-color: gainsboro;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.flex-container div {
+    border: 1px solid black;
+    background-color: #f30183;
+    margin: 5px;
+    padding: 20px;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+text-align: center;
+    color: white;
+    font-family: 'Luxurious Roman';
+    cursor: grab;
+}
